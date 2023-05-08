@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .navbar {
     position: fixed;
     display: flex;
@@ -26,4 +30,20 @@
 }
 .navbar a:hover {
     background-color: black;
+}
+.header {
+  text-align: center;
+  font-size: 42px;
+  margin:60px 0;
+  padding: 10px;
+  background-color: black;
+  height: auto;
+}
+.header h1 {
+  text-align: center;
+  color: red;
+}
+header p{
+  text-align: center;
+  color: white;
 }
