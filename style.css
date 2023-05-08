@@ -1,12 +1,15 @@
 .navbar {
     position: fixed;
-    display: inline;
+    display: flex;
+    justify-content: end;
     top: 0; 
     left: 0;
     width: 100%;
     background-color: red;
 }
 .navbar ul{
+    display: flex;
+    justify-content: end;
     list-style-type: none;
 }
 .navbr li {
@@ -17,4 +20,10 @@
   text-decoration: none;
   display: block;
   padding: 8px;
+  color: white;
+  font-size: larger;
+  font-weight: 300;
+}
+.navbar a:hover {
+    background-color: black;
 }
