@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    display: inline;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: red;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbr li {
+  float: right;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
